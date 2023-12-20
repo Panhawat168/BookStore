@@ -1,0 +1,803 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-icon {
+    margin-left: 45px;
+}
+
+.top-icon i {
+    font-size: 20px;
+    color: #1c1c50;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.other-link {
+    margin-right: 33px;
+}
+
+.other-link i {
+    font-size: 20px;
+    color: #1c1c50;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Start Button login */
+
+#btn-login {
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+#btn-login a {
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+
+#btn-login a:hover {
+
+    background-color: #1c1c50;
+    color: white;
+
+}
+
+#btn-login:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+/* End Button login */
+
+#btn-Sign {
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+#btn-Sign a {
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+
+#btn-Sign a:hover {
+
+    background-color: #1c1c50;
+    color: white;
+
+}
+
+#btn-Sign:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+
+
+/* Top-navbar */
+
+.top-navbar {
+    width: 100%;
+    height: 7vh;
+    background-color: #a9a9a926;
+}
+
+
+
+
+
+/* Navbar */
+
+.home-navbar {
+    width: 100%;
+    height: 93vh;
+    background-color: #a9a9a926;
+
+
+}
+
+#navbar {
+    background-color: #1c1c50;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+
+}
+
+
+#navbar .nav-link:hover {
+    color: white;
+    border: 5px;
+
+}
+
+.dropdown li a {
+    color: white;
+}
+
+#search-btn {
+    color: white;
+    border: 1px solid white;
+}
+
+#search-btn:hover {
+    background-color: #1c1c50;
+
+}
+
+/* Navbar */
+
+
+/* Home  */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.home .img img {
+    width: 100%;
+}
+
+.home .img {
+    flex: 1 1 400px;
+}
+
+.home .content {
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+
+.content h3 {
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color: #1c1c50;
+    font-weight: bold;
+}
+
+.content h3 span {
+    font-size: 40px;
+}
+
+.content p {
+    margin-left: 70px;
+    color: #1c1c50;
+}
+
+.content #shopnow {
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid #1c1c50;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.content #shopnow {
+    background-color: #1c1c50;
+    color: white;
+}
+
+
+
+
+/*End  Home  */
+
+
+
+/* ---------> Card-Top  <--------- */
+
+#top-cards {
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#top-cards .card img {
+    height: 60vh;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#top-cards h5 {
+    color: red;
+    font-weight: bold;
+}
+
+#top-cards button {
+    width: 120px;
+    height: 33px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: transparent;
+    color: #1c1c50;
+    border: 2px solid #1c1c50;
+    transition: 0.5 ease;
+}
+
+#top-cards button:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+
+/* ---------> End Card-Top  <--------- */
+
+/* ---------> Start Banner  <--------- */
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: url(./img/banner2.jpg);
+    background-size: cover;
+}
+
+.banner .content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner .content h1 {
+    top: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.banner .content p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3;
+}
+
+#banerbtn button {
+    margin-top: 50px;
+    color: black;
+    border: none;
+
+
+}
+
+
+/* ---------> Start Banner 2 <--------- */
+
+.banner2 {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background: white;
+    background-image: url(./img/banner2.jpg);
+    background-size: cover;
+}
+
+.banner2 .content2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner2 .content2 h1 {
+    top: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#bannerbtn2 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border: none;
+    transition: 0.5 ease;
+    cursor: pointer;
+
+
+
+
+}
+
+#bannerbtn2 button:hover {
+    background-color: #1c1c50;
+
+}
+
+.banner2 .content2 h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #1c1c50;
+    font-weight: bold;
+}
+
+.banner2 .content2 p {
+    color: black;
+    font-size: 16px;
+}
+
+/* ---------> End Banner 2 <--------- */
+
+
+.card-body h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* ---------> Start Product Card  <--------- */
+
+#product-card {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 100px;
+}
+
+#product-card .card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+#product-card h1 {
+    margin-top: 30px;
+    color: #1c1c50;
+    text-shadow: 1px 1px 1px black;
+}
+
+#product-card h3 {
+    letter-spacing: 3px;
+    color: #1c1c50;
+    border: 0px 1px black;
+}
+
+
+#product-card h5 span {
+    float: right;
+    color: #1c1c50;
+    cursor: pointer;
+
+}
+
+#viewmorebtn {
+    color: #1c1c50;
+    letter-spacing: 5px;
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+    width: 200px;
+    height: 32px;
+    margin-top: 30px;
+    margin: auto;
+    background: transparent;
+}
+
+#viewmorebtn:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+
+/* offer */
+
+#offer {
+    margin-top: 50px;
+    
+    text-align: center;
+    
+}
+
+#offer i {
+    font-size: 50px;
+    color: #1c1c50;
+}
+
+
+
+/* offer */
+
+/* footer */
+.payment {
+    margin-top: 50px;
+}
+
+#footer {
+    padding: 0 0 30px 0;
+    color: #d0d0d0;
+    font-size: 14px;
+    background-color: #1c1c50;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px;
+    background-color: #1c1c50;
+    color: white;
+
+}
+
+#footer .footer-top .footer-content h3 {
+
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#footer .footer-top .footer-content h4 {
+    font-size: 14px;
+    margin: 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-content p {
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer.footer-top {
+    font: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links ul li {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding-right: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding: 0;
+}
+
+#footer .footer-top .footer-links ul li a {
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+}
+
+#footer .footer-top .sociallink a {
+    font-size: 18;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 50px;
+    text-align: center;
+
+
+    transition: 0.5 ease;
+}
+
+footer.title {
+    font-size: 20px;
+}
+
+/* Arrow up */
+html {
+    scroll-behavior: smooth;
+
+}
+
+.arrow {
+    position: fixed;
+    background-color: #1c1c50;
+    border-radius: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    display: block;
+    /* Initially display the arrow */
+    opacity: 1;
+    /* Initially visible */
+    transition: opacity 0.3s ease-in-out;
+    /* Add transition for smooth effect */
+
+}
+
+/* End Arrow up */
+
+
+/* footer */
+
+/* Reponsive Screen */
+
+@media screen and (max-width:500px) {
+    .top-icon {
+        margin-left: 30px;
+    }
+
+    .top-icon i {
+        font-size: 15px;
+    }
+
+    .other-link i {
+        font-size: 15px;
+    }
+
+    #btn-login {
+        width: 60px;
+        height: 5vh;
+    }
+
+    #btn-Sign {
+        width: 70px;
+        height: 5vh;
+    }
+}
+
+
+@media screen and (max-width:350px) {
+    .top-icon {
+        margin-left: 10px;
+    }
+
+    .top-icon i {
+        font-size: 10px;
+    }
+
+    .other-link i {
+        margin-right: 10px;
+    }
+
+    .other-link i {
+        font-size: 10px;
+    }
+
+    #btn-login {
+        width: 50px;
+        height: 5vh;
+        font-size: 13px;
+    }
+
+    #btn-Sign {
+        width: 60px;
+        height: 5vh;
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (max-width:350px) {
+    .top-icon {
+        margin-left: 5px;
+    }
+
+    .top-icon i {
+        font-size: 5px;
+    }
+
+    .other-link i {
+        margin-right: 10px;
+    }
+
+    .other-link i {
+        font-size: 10px;
+    }
+
+    #btn-login {
+        width: 40px;
+        height: 5vh;
+        font-size: 13px;
+    }
+
+    #btn-Sign {
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+
+
+/* About */
+
+#about {
+    margin-top: 50px;
+}
+
+/* Content reponsive */
+
+@media screen and (max-width:800px) {
+    .content h3 {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .content p {
+        margin-left: 50px;
+    }
+
+    .content #shopnow {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .content h3 {
+        margin-left: 20px;
+
+    }
+
+    .content p {
+        margin-left: 20px;
+    }
+
+    .content #shopnow {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:779px) {
+    .home-navbar {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home-navbar {
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .banner {
+        display: none;
+    }
+}
+
+
+/* Home Navbar Reponsive */
+
+
+
+@media (max-width: 576px) {
+    .home-navbar {
+        width: 107%;
+        height: 100vh;
+        background-color: #a9a9a926;
+
+
+    }
+}
+
+
+/* Reponsive Top Card */
+
+@media (max-width: 576px) {
+
+    #top-cards {
+        margin-top: 30px;
+        font-family: 'Roboto Slab', serif;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    #top-cards .card img {
+        height: 50vh;
+        margin-top: 30px;
+
+
+    }
+
+}
+
+
+/*End Reponsive Top Card */
+
+
+
+@media (max-width: 576px) {
+
+    .payment img {
+        width: 50px;
+    }
+
+}
+
+/* Top Navbar */
+
+@media (max-width: 576px) {
+
+    .top-navbar {
+        width: 107%;
+        height: 7vh;
+        background-color: #a9a9a926;
+    }
+
+}
+
+
+@media (max-width: 37px5) {
+
+    .top-navbar {
+        width: 200%;
+        height: 7vh;
+        background-color: #a9a9a926;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .row {
+      margin-right: 0;
+      margin-left: 5px;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .ptex {
+      font-size: 12px;
+        
+    }
+
+}
+
+
+
+.ptex{
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 50px;
+}
+
+/* Top Navbar */
+
+
+/*End Home Navbar Reponsive */
+
+
+
+/*End Content reponsive */
+
+
+
+/* .card img{
+    width: 250px;
+    height: 100%;
+} */

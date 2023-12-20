@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- End Link Bootstrap -->
+    <!-- Link CDN Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--End  Link CDN Font Awsome -->
+     <link rel="stylesheet" href="style.css">
+
+
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@500&family=Rubik:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- End Font links -->
+
+    <!-- Aos animition -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--End Aos animition -->
+
+</head>
+
+<body>
+
+    <!-- Top navbar -->
+    <div class="top-navbar d-flex align-items-center text-center justify-content-between ">
+        <div class="top-icon ">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+
+        </div>
+        <div class="other-link ">
+            <button id="btn-login"><a href="login.html">Login</a></button>
+            <button id="btn-Sign"><a href="">Sign</a></button>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+    </div>
+    <!--End Top navbar -->
+
+
+    <!-- Navbar  -->
+
+    <div class="home-navbar">
+        <nav class="navbar navbar-expand-lg " id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="180px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feature</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="background-color:#1c1c50;">
+                                <li><a class="dropdown-item" href="#">Book Khmer</a></li>
+                                <li><a class="dropdown-item" href="#">Book English</a></li>
+                                <li><a class="dropdown-item" href="#">Book Genral Knowlegde</a></li>
+                                <li><a class="dropdown-item" href="#">Book History</a></li>
+                                <li><a class="dropdown-item" href="#">Book Law </a></li>
+
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </nav>
+
+
+
+
+        <!--End  Navbar  -->
+
+
+        <!--Banner  -->
+        <div class="banner2">
+            <div class="content2">
+                <h1>Get More Product</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minima, velit aliquam recusandae
+                    facere tempore explica</p>
+                <div id="bannerbtn2">
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    < <!-- End Banner -->
+
+
+
+        <!--Product Card-->
+
+        <div class="container" id="product-card">
+            <h1 class="text-center">Book Product</h1>
+            <div class="row m-3">
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Living_edition.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Sub.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Book.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></i></span></h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Tesy.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row m-3">
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/d.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Book.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Book.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img/Book.png" alt="">
+                        <div class="card-body">
+                            <h3 class="">Book Hacker</h3>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                            <div class="start" style="color: yellow;">
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </div>
+                            <h5 class="">$32.60<strike>$40</strike><span><i
+                                        class="fa-solid fa-cart-shopping"></i></span>
+                            </h5>
+                            <div class="text-center">
+                                <a href="#" class="text-center btn btn-danger">Buy Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a class="d-flex justify-content-center m-auto text-decoration-none  fw-bold  " id="viewmorebtn">View
+                More</a>
+
+        </div>
+
+
+        <!--End Product Card-->
+
+        <!-- Product Deatail-->
+
+        <div class="container" style="margin-top:10px;">
+            <hr>
+        </div>
+        <div class="container">
+            <h3 class="fw-bold">Product</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio. Iusto eligendi, ad
+                assumenda
+                repudiandae, odit repellat fugit nulla similique blanditii</p>
+            <hr>
+        </div>
+        <!--End Product Deatail-->
+
+        <!-- Start offer -->
+        <div class="container" id="offer">
+            <div class="row border-2">
+                <div class="col-md-4 py-3 py-md-3">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h5>Free Bokk</h5>
+                    <p>on order over $100</p>
+                </div>
+                <div class="col-md-4 py-3 py-md-3">
+                    <i class="fa-solid fa-truck"></i>
+                    <h5>Fast Delivery</h5>
+                    <p>World wide</p>
+                </div>
+                <div class="col-md-4 py-3 py-md-3">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <h5>Big Choice</h5>
+                    <p>offer product </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- End offer -->
+
+
+        <!-- Start Footer -->
+
+        <!-- Start Footer -->
+        <footer id="footer" style="margin-top: 50px;">
+            <div class="footer-top list-unstyled">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h3>Book Store</h3>
+                            <p>Sangkat Kbal Khos Khan ChbarAmpov</p>
+                            <p>
+                                PhnomPenh<br><br>
+                                My Book Store<br><br>
+                                Branch 2<br><br>
+                            </p>
+
+                            <strong><i class="fas fa-phone"></i>Phone:<strong>+885 15536914</strong></strong> <br><br>
+                            <strong><i
+                                    class="fa-solid fa-envelope"></i>Email:<strong>Thesmos168@gm.com</strong></strong>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6  footer-links">
+                            <h4>Link Useful</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Service</a></li>
+                                <li><a href="">Privycy</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Service</h4>
+                            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem omnis
+                            </p>
+                            <ul class="list-unstyled p-0 m-0">
+                                <li><a href="">Book Tecnology</a></li>
+                                <li><a href="">Book Khmer</a></li>
+                                <li><a href="">Book English</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our SocialLink</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="sociallink mt-3 ">
+                                <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="" class="twitter"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="" class="twitter"><i class="fa-brands fa-google-plus"></i></a>
+                                <a href="" class="twitter"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="title fs-2 text-center" style="color: white; ">
+                <p>We accept the following payment methods</p>
+            </div>
+            <div class="payment d-flex justify-content-center gap-2">
+
+                <div>
+                    <img src="img/brand-mastercard@3x.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/American Express.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/brand-chinaunionpay@3x.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/Diners.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/Visa.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/PayPal.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="container py-4">
+                <div class="copyright text-center">
+                    &copy; Copyright <strong>Book-Store</strong>All Right Reserved
+                </div>
+                <div class="credit text-center">
+                    Designed By <a class="text-decoration-none " href="">Panhawat</a>
+                </div>
+
+            </div>
+
+        </footer>
+        <!-- End Footer -->
+
+        <a href="#" class="arrow"><i><img src="img/up-arrow.png" alt="" width="50px"></i></a>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+<!-- Script Aos Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- End Aos Animation -->
+<!-- Aos Script  -->
+<script>
+    AOS.init();
+</script>
+<!-- End Aos Script  -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var arrow = document.querySelector('.arrow');
+
+        // Initial check to see if the arrow should be hidden
+        checkScroll();
+
+        // Listen for scroll events
+        window.addEventListener('scroll', checkScroll);
+
+        function checkScroll() {
+            // If the user has scrolled down, hide the arrow; otherwise, show it
+            if (window.scrollY < 700) {
+                arrow.style.opacity = 0;
+            } else {
+                arrow.style.opacity = 1;
+            }
+        }
+    });
+</script>
+
+</html>
